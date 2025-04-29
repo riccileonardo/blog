@@ -28,7 +28,7 @@ const BlogPostCard = ({
   image,
   readTime,
   categories = [],
-  url = "#"
+  url
 }: BlogPostCardProps) => {
   return (
     <Card className="h-full flex flex-col overflow-hidden hover:shadow-md transition-shadow">
@@ -70,11 +70,11 @@ const BlogPostCard = ({
         )}
       </CardContent>
       <CardFooter>
-        <Button>
-          <a href={url}>
-            Ler mais
-          </a>
+      <a href={url} className="w-full">
+        <Button className="w-full">
+          Ler mais
         </Button>
+      </a>
       </CardFooter>
     </Card>
   );

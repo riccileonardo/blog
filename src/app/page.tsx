@@ -52,12 +52,13 @@ const Index = () => {
 
   const featuredPosts = [
     {
-      title: "Como otimizar seu workflow de desenvolvimento",
-      excerpt: "Aprenda dicas e truques para melhorar sua produtividade como desenvolvedor com ferramentas e técnicas modernas.",
-      date: "15 Mar 2023",
+      title: "HTML é ultrapassado? Entenda por que ele ainda é essencial",
+      excerpt: "Em um mercado onde surgem novas tecnologias quase todos os meses, é natural pensar que algumas linguagens 'antigas' ficaram para trás.",
+      date: "28 Abr 2025",
+      image: "/images/html.png",
       readTime: "5",
-      categories: ["Desenvolvimento", "Produtividade"],
-      url: "#"
+      categories: ["Html", "Modernidade"],
+      url: "/blog/html-e-ultrapassado"
     },
     {
       title: "Introdução ao React Hooks",
