@@ -14,9 +14,7 @@ import { Button } from "@/components/ui/button";
 interface BlogPostCardProps {
   title: string;
   excerpt: string;
-  date: string;
   image?: string;
-  readTime?: string;
   categories?: string[];
   url?: string;
 }
@@ -24,9 +22,7 @@ interface BlogPostCardProps {
 const BlogPostCard = ({
   title,
   excerpt,
-  date,
   image,
-  readTime,
   categories = [],
   url
 }: BlogPostCardProps) => {
@@ -45,12 +41,6 @@ const BlogPostCard = ({
         <div className="flex items-center justify-between">
           <div className="bg-primary/10 p-2 rounded-full">
             <FileText className="h-5 w-5 text-primary" />
-          </div>
-          <div className="flex items-center gap-2">
-            <Badge variant="outline">{date}</Badge>
-            {readTime && (
-              <Badge variant="secondary">{readTime} min</Badge>
-            )}
           </div>
         </div>
         <CardTitle className="mt-4 hover:text-primary transition-colors">

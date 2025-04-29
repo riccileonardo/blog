@@ -13,8 +13,6 @@ interface CourseCardProps {
   title: string;
   institution: string;
   description: string;
-  completionDate: string;
-  duration?: string;
   certificate?: string;
   tags?: string[];
 }
@@ -23,8 +21,6 @@ const CourseCard = ({
   title,
   institution,
   description,
-  completionDate,
-  duration,
   certificate,
   tags = []
 }: CourseCardProps) => {
@@ -35,18 +31,12 @@ const CourseCard = ({
           <div className="bg-primary/10 p-2 rounded-full">
             <BookOpen className="h-5 w-5 text-primary" />
           </div>
-          <Badge variant="outline">{completionDate}</Badge>
         </div>
         <CardTitle className="mt-4">{title}</CardTitle>
         <CardDescription>{institution}</CardDescription>
       </CardHeader>
       <CardContent className="flex-1">
         <p className="text-sm text-gray-600">{description}</p>
-        {duration && (
-          <p className="text-sm mt-2 text-gray-500">
-            <span className="font-medium">Duração:</span> {duration}
-          </p>
-        )}
         {tags.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-3">
             {tags.map((tag) => (

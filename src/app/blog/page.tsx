@@ -7,21 +7,19 @@ const BlogPosts = () => {
     {
       title: "HTML é ultrapassado? Entenda por que ele ainda é essencial",
       excerpt: "Em um mercado onde surgem novas tecnologias quase todos os meses, é natural pensar que algumas linguagens 'antigas' ficaram para trás.",
-      date: "28 Abr 2025",
       image: "/images/html.png",
       readTime: "5",
       categories: ["Html", "Modernidade"],
       url: "/blog/html-e-ultrapassado"
     },
     {
-      title: "Introdução ao React Hooks",
-      excerpt: "Um guia completo sobre como começar a utilizar React Hooks em seus projetos para um código mais limpo e manutenível.",
-      date: "02 Fev 2023",
-      image: "/placeholder.svg",
-      readTime: "8",
-      categories: ["React", "JavaScript", "Frontend"],
-      url: "#"
-    },
+      title: "Os Principais Comandos do Git Que Todo Dev Precisa Saber",
+      excerpt: "Conheça os comandos essenciais do Git para gerenciar seus projetos com eficiência, desde log e branch até stash e rebase.",
+      image: "/images/comandos-git.png",
+      readTime: "6",
+      categories: ["Git", "Versionamento", "Desenvolvimento"],
+      url: "/blog/comandos-git"
+    }
   ];
 
   return (

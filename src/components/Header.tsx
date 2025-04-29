@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
+import { Code } from "lucide-react";
 
 const Header = () => {
   const pathname = usePathname(); 
@@ -18,7 +19,11 @@ const Header = () => {
     <header className="sticky top-0 z-10 bg-white/80 backdrop-blur-md border-b border-gray-200">
       <div className="container max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/" className="font-bold text-xl">
-          Portifólio
+          <div className="flex items-center">
+            <Code className="h-6 w-6 text-primary inline-block mr-1" />
+            <span className="text-gray-800">Leonardo</span>
+            <span className="text-blue-600">Dev</span>
+          </div>
         </Link>
         
         <nav className="hidden md:flex items-center space-x-6">

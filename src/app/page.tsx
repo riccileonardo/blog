@@ -15,8 +15,6 @@ const Index = () => {
       title: "HTML e CSS: Classes, posicionamento e Flexbox",
       institution: "Alura",
       description: "Curso focado em técnicas modernas de estilização e posicionamento de elementos utilizando Flexbox.",
-      completionDate: "24/04/2025",
-      duration: "8h",
       certificate: "https://cursos.alura.com.br/certificate/leonardo-ricci/html-css-classes-posicionamento-flexbox",
       tags: ["HTML", "CSS", "Flexbox"]
     },
@@ -24,8 +22,6 @@ const Index = () => {
       title: "Lógica de programação: mergulhe em programação com JavaScript",
       institution: "Alura",
       description: "Fundamentos da lógica de programação aplicados com JavaScript para o desenvolvimento de algoritmos básicos.",
-      completionDate: "30/01/2025",
-      duration: "6h",
       certificate: "https://cursos.alura.com.br/certificate/leonardo-ricci/logica-programacao-mergulhe-programacao-javascript",
       tags: ["JavaScript", "Programação", "Lógica"]
     },
@@ -33,20 +29,20 @@ const Index = () => {
 
   const featuredProjects = [
     {
-      title: "E-commerce Platform",
-      description: "Uma plataforma de comércio eletrônico completa com sistema de pagamentos, carrinho e perfil de usuário.",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2023"
-    },
-    {
       title: "Portfolio Website",
       description: "Website de portfolio pessoal com seções para projetos, habilidades e formulário de contato.",
       technologies: ["Next.js", "Tailwind CSS"],
-      liveUrl: "#",
+      liveUrl: "",
       githubUrl: "https://github.com/riccileonardo/blog",
       date: "2025"
+    },
+    {
+      title: "API de Gestão de Cursos com Autenticação JWT",
+      description: "Desenvolvi uma API RESTful utilizando Python e o framework Flask, focada na gestão de cursos online. A aplicação foi estruturada para atender funcionalidades essenciais de uma plataforma educacional",
+      technologies: ["Python", "Flask", "JWT"],
+      liveUrl: "",
+      githubUrl: "https://github.com/riccileonardo/Api_Python_Flask",
+      date: "2023"
     }
   ];
 
@@ -56,17 +52,16 @@ const Index = () => {
       excerpt: "Em um mercado onde surgem novas tecnologias quase todos os meses, é natural pensar que algumas linguagens 'antigas' ficaram para trás.",
       date: "28 Abr 2025",
       image: "/images/html.png",
-      readTime: "5",
       categories: ["Html", "Modernidade"],
       url: "/blog/html-e-ultrapassado"
     },
     {
-      title: "Introdução ao React Hooks",
-      excerpt: "Um guia completo sobre como começar a utilizar React Hooks em seus projetos para um código mais limpo e manutenível.",
-      date: "02 Fev 2023",
-      readTime: "8",
-      categories: ["React", "JavaScript", "Frontend"],
-      url: "#"
+      title: "Os Principais Comandos do Git Que Todo Dev Precisa Saber",
+      excerpt: "Conheça os comandos essenciais do Git para gerenciar seus projetos com eficiência, desde log e branch até stash e rebase.",
+      date: "29 Abr 2025",
+      image: "/images/comandos-git.png",
+      categories: ["Git", "Versionamento", "Desenvolvimento"],
+      url: "/blog/comandos-git"
     }
   ];
 

@@ -6,58 +6,20 @@ const Projects = () => {
   // Mock data - replace with your actual project information
   const projects = [
     {
-      title: "E-commerce App",
-      description: "Uma plataforma de comércio eletrônico completa com sistema de pagamentos, carrinho e perfil de usuário.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Node.js", "MongoDB", "Stripe"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2023"
-    },
-    {
-      title: "Task Manager",
-      description: "Aplicativo de gerenciamento de tarefas com funcionalidades de arrastar e soltar, priorização e lembretes.",
-      image: "/placeholder.svg",
-      technologies: ["Vue.js", "Firebase", "Tailwind CSS"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2022"
-    },
-    {
       title: "Portfolio Website",
       description: "Website de portfolio pessoal com seções para projetos, habilidades e formulário de contato.",
-      image: "/placeholder.svg",
-      technologies: ["HTML", "CSS", "JavaScript", "GSAP"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2022"
+      technologies: ["Next.js", "Tailwind CSS"],
+      liveUrl: "",
+      githubUrl: "https://github.com/riccileonardo/blog",
+      date: "2025"
     },
     {
-      title: "Weather App",
-      description: "Aplicativo de previsão do tempo que consome APIs meteorológicas e exibe dados em um formato amigável.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Weather API", "Chart.js"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2021"
-    },
-    {
-      title: "Blog CMS",
-      description: "Sistema de gerenciamento de conteúdo para blog com painel administrativo e editor WYSIWYG.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "TipTap"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2021"
-    },
-    {
-      title: "Fitness Tracker",
-      description: "Aplicativo mobile para rastreamento de exercícios, nutrição e progresso físico.",
-      image: "/placeholder.svg",
-      technologies: ["React Native", "Redux", "Firebase"],
-      liveUrl: "#",
-      githubUrl: "#",
-      date: "2020"
+      title: "API de Gestão de Cursos com Autenticação JWT",
+      description: "Desenvolvi uma API RESTful utilizando Python e o framework Flask, focada na gestão de cursos online. A aplicação foi estruturada para atender funcionalidades essenciais de uma plataforma educacional",
+      technologies: ["Python", "Flask", "JWT"],
+      liveUrl: "",
+      githubUrl: "https://github.com/riccileonardo/Api_Python_Flask",
+      date: "2023"
     }
   ];
 
