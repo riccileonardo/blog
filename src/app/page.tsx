@@ -76,7 +76,6 @@ const Index = () => {
       <main className="pb-16">
         <ProfileSection />
 
-        {/* Cursos em destaque */}
         <section className="py-12 bg-white">
           <div className="container max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center mb-8">
@@ -107,7 +106,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Projetos em destaque */}
         <section className="py-12 bg-gray-50">
           <div className="container max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center mb-8">
@@ -132,7 +130,6 @@ const Index = () => {
           </div>
         </section>
 
-        {/* Artigos recentes */}
         <section className="py-12 bg-white">
           <div className="container max-w-7xl mx-auto px-4">
             <div className="flex justify-between items-center mb-8">
