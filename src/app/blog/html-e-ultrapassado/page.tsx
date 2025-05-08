@@ -35,7 +35,7 @@ export default function HtmlPost() {
         </h1>
 
         <div className="text-center text-gray-500 text-sm mb-12">
-          28 Abr 2025 &nbsp; | &nbsp; Por Leonardo Lopes Ricci
+          28 Abr 2025 &nbsp; | &nbsp; Por Leonardo Ricci
         </div>
 
         <div className="space-y-20">

@@ -35,7 +35,7 @@ export default function GitPost() {
         </h1>
 
         <div className="text-center text-gray-500 text-sm mb-12">
-          29 Abr 2025 &nbsp; | &nbsp; Por Leonardo Lopes Ricci
+          29 Abr 2025 &nbsp; | &nbsp; Por Leonardo Ricci
         </div>
 
         <div className="space-y-20">

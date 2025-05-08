@@ -14,7 +14,7 @@ interface ProfileSectionProps {
 }
 
 const ProfileSection = ({
-  name = "Leonardo Lopes Ricci",
+  name = "Leonardo Ricci",
   title = "Junior Software Engineer",
   bio = "Engenheiro de Software em formação, graduando de Sistemas de Informação.\n\nApaixonado por tecnologia, sempre buscando aprender e compartilhar conhecimento. Experiência em desenvolvimento web, com foco em React, Next... Acredito que a colaboração e a comunicação são essenciais para o sucesso de qualquer projeto.",
   linkedinUrl = "https://www.linkedin.com/in/dev-leonardo-ricci/",

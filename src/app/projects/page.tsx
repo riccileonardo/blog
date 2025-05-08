@@ -9,7 +9,7 @@ const Projects = () => {
       title: "Portfolio Website",
       description: "Website de portfolio pessoal com seções para projetos, habilidades e formulário de contato.",
       technologies: ["Next.js", "Tailwind CSS"],
-      liveUrl: "",
+      liveUrl: "https://riccileonardo.github.io/",
       githubUrl: "https://github.com/riccileonardo/blog",
       date: "2025"
     },
