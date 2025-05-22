@@ -32,18 +32,18 @@ const Index = () => {
       title: "Portfolio Website",
       description: "Website de portfolio pessoal com seções para projetos, habilidades e formulário de contato.",
       technologies: ["Next.js", "Tailwind CSS"],
-      liveUrl: "",
+      liveUrl: "https://riccileonardo.github.io/",
       githubUrl: "https://github.com/riccileonardo/blog",
       date: "2025"
     },
     {
-      title: "API de Gestão de Cursos com Autenticação JWT",
-      description: "Desenvolvi uma API RESTful utilizando Python e o framework Flask, focada na gestão de cursos online. A aplicação foi estruturada para atender funcionalidades essenciais de uma plataforma educacional",
-      technologies: ["Python", "Flask", "JWT"],
-      liveUrl: "",
-      githubUrl: "https://github.com/riccileonardo/Api_Python_Flask",
-      date: "2023"
-    }
+      title: "Loja de Camisetas",
+      description: "Desenvolvi uma página de produto de e-commerce utilizando React e Tailwind CSS como parte de um desafio técnico. O projeto inclui galeria de imagens, seletores dinâmicos de variantes (cor e tamanho), simulação de frete via CEP e persistência de estado por 15 minutos.",
+      technologies: ["React", "TailwindCSS", "JavaScript", "Vite"],
+      liveUrl: "https://store-dun-two.vercel.app/",
+      githubUrl: "https://github.com/riccileonardo/store",
+      date: "2025"
+    },
   ];
 
   const featuredPosts = [

@@ -20,8 +20,16 @@ const Projects = () => {
       liveUrl: "",
       githubUrl: "https://github.com/riccileonardo/Api_Python_Flask",
       date: "2023"
-    }
-  ];
+    },
+    {
+      title: "Loja de Camisetas",
+      description: "Desenvolvi uma página de produto de e-commerce utilizando React e Tailwind CSS como parte de um desafio técnico. O projeto inclui galeria de imagens, seletores dinâmicos de variantes (cor e tamanho), simulação de frete via CEP e persistência de estado por 15 minutos.",
+      technologies: ["React", "TailwindCSS", "JavaScript", "Vite"],
+      liveUrl: "https://store-dun-two.vercel.app/",
+      githubUrl: "https://github.com/riccileonardo/store",
+      date: "2025"
+    },
+];
 
   return (
     <div className="min-h-screen bg-gray-50">

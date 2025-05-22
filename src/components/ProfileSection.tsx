@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Linkedin, Mail, MapPin, FileUser } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 interface ProfileSectionProps {
@@ -71,6 +71,12 @@ const ProfileSection = ({
                 <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2">
                   <Github size={18} />
                   GitHub
+                </a>
+              </Button>
+
+              <Button variant="outline" size="sm" asChild>
+                <a href="/files/Curriculo - Leonardo Ricci.pdf" download="Curriculo - Leonardo-Ricci.pdf" className="flex items-center gap-2">
+                  <FileUser size={18} /> Baixar Currículo
                 </a>
               </Button>
             </div>
